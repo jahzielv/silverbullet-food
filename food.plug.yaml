@@ -1,0 +1,9 @@
+name: food
+version: 0.1
+imports:
+  - https://get.silverbullet.md/global.plug.json
+functions:
+  food:
+    path: "./food.ts:food"
+    command:
+      name: "Food: log some food"
