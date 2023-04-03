@@ -15,7 +15,7 @@ export async function food() {
     return;
   }
 
-  await editor.navigate("food test");
+  await editor.navigate("Food Log");
   const mdTree = await markdown.parseMarkdown(await editor.getText());
   const d = new Date();
 
